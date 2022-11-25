@@ -1,0 +1,150 @@
+.main {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+.circle-div {
+  grid-column: 2/3;
+  background-color: red;
+}
+.left {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  height: 100%;
+  width: 75%;
+  /* background: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftdiv {
+  background-color: #100f10;
+  color: white;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 25px;
+}
+
+.leftdiv:hover {
+  transition: all 0.5s;
+  color: #100f10;
+  background-color: rgb(124, 124, 124);
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.red {
+  height: 3rem;
+  width: 5rem;
+}
+.blue {
+  height: 3rem;
+  width: 5rem;
+}
+.yellow {
+  height: 3rem;
+  width: 5rem;
+}
+.grey {
+  height: 3rem;
+  width: 5rem;
+}
+.darkblue {
+  height: 3rem;
+  width: 5rem;
+}
+
+.container,
+.container2,
+.container3,
+.container4,
+.container5 {
+  height: 80%;
+  width: 90%;
+}
+.container {
+  background-color: red;
+}
+.container2 {
+  background-color: blue;
+}
+.container3 {
+  background-color: yellow;
+}
+.container4 {
+  background-color: grey;
+}
+/* .container5 {
+  background-color: darkblue;
+} */
+
+.loginmainpage {
+  height: 80%;
+  width: 90%;
+  /* background-image: linear-gradient(to right, #0652c5, #d4418e); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  text-transform: capitalize;
+}
+.inputid {
+  margin-bottom: 1rem;
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+  padding: 1rem;
+  width: 20rem;
+  color: white;
+}
+.inputpassword {
+  /* margin-bottom: 1rem; */
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+  padding: 1rem;
+  width: 20rem;
+  color: white;
+}
+
+.maincheck {
+  display: flex;
+  gap: 11rem;
+  /* background-color: brown; */
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+  padding-bottom: 1.5rem;
+  font-size: 12px;
+}
+.checkdiv {
+  display: flex;
+}
+.btn {
+  width: 22rem;
+  /* background-color: rgb(234, 149, 247); */
+  background: rgba(255, 253, 253, 0.2);
+
+  padding: 1rem;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+::placeholder {
+  color: white;
+}
